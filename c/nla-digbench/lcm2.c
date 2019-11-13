@@ -21,8 +21,8 @@ int main() {
     __VERIFIER_assume(a >= 1); //inf loop if remove
     __VERIFIER_assume(b >= 1);
 
-    __VERIFIER_assume(a <= 65535);
-    __VERIFIER_assume(b <= 65535);
+    __VERIFIER_assume(a <= 32768);
+    __VERIFIER_assume(b <= 32768);
 
     x = a;
     y = b;
